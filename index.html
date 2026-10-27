@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<title>Promise: Üst Bar Seçenekleri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+	:root {
+		--kagit: #FFFFFF;
+		--studyo: #EDEDEC;
+		--cizgi: #D6D4D2;
+		--gri: #635F60;
+		--murekkep: #211F20;
+		--vurgu: #8C7F73;
+	}
+	* { box-sizing: border-box; }
+	body {
+		margin: 0;
+		background: var(--kagit);
+		color: var(--murekkep);
+		font-family: "EB Garamond", Georgia, serif;
+		font-size: 1.125rem;
+		line-height: 1.6;
+	}
+	.kap { max-width: 1180px; margin-inline: auto; padding-inline: 16px; }
+	header.ust {
+		padding: 56px 0 40px;
+		text-align: center;
+		border-bottom: 1px solid var(--cizgi);
+	}
+	.marka {
+		font-family: "Jost", sans-serif;
+		font-weight: 300;
+		letter-spacing: 0.42em;
+		font-size: 0.8rem;
+		color: var(--gri);
+		margin: 0 0 28px;
+	}
+	h1 {
+		font-family: "Jost", sans-serif;
+		font-weight: 200;
+		font-size: clamp(1.9rem, 5vw, 2.9rem);
+		letter-spacing: 0.04em;
+		margin: 0 0 18px;
+		line-height: 1.2;
+	}
+	.giris { max-width: 620px; margin: 0 auto; color: var(--gri); }
+
+	.etiket {
+		display: flex; align-items: center; gap: 16px;
+		font-family: "Jost", sans-serif; font-weight: 400; font-size: 0.78rem;
+		letter-spacing: 0.24em; color: var(--vurgu);
+		margin: 0 0 18px;
+	}
+	.etiket::after { content: ""; flex: 1; height: 1px; background: var(--cizgi); }
+
+	section.secenek { padding: 56px 0 8px; }
+	.secenek-bas { display: flex; align-items: baseline; gap: 18px; margin-bottom: 6px; }
+	.harf {
+		font-family: "Jost", sans-serif; font-weight: 200; font-size: 3rem; line-height: 1;
+		color: var(--murekkep);
+	}
+	h2 {
+		font-family: "Jost", sans-serif; font-weight: 300; font-size: 1.45rem;
+		letter-spacing: 0.03em; margin: 0;
+	}
+	.aciklama { margin: 0 0 24px; color: var(--gri); max-width: 680px; }
+
+	.gorseller {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 2.6fr);
+		gap: 20px;
+		align-items: start;
+	}
+	figure { margin: 0; }
+	figure a { display: block; border: 1px solid var(--cizgi); background: var(--studyo); }
+	figure img { display: block; width: 100%; height: auto; }
+	figcaption {
+		font-family: "Jost", sans-serif; font-weight: 300; font-size: 0.78rem;
+		letter-spacing: 0.16em; color: var(--gri); margin-top: 10px;
+	}
+
+	.referans { padding-top: 48px; }
+	.referans .gorseller { opacity: 0.92; }
+
+	footer.alt {
+		margin-top: 72px;
+		padding: 48px 0 64px;
+		border-top: 1px solid var(--cizgi);
+		text-align: center;
+	}
+	footer.alt p { margin: 0 auto; max-width: 560px; }
+	footer.alt .kucuk { margin-top: 14px; font-size: 0.95rem; color: var(--gri); }
+
+	@media (max-width: 760px) {
+		header.ust { padding: 40px 0 32px; }
+		section.secenek { padding-top: 44px; }
+		.gorseller { grid-template-columns: 1fr; gap: 16px; }
+		.harf { font-size: 2.4rem; }
+	}
+</style>
+</head>
+<body>
+
+<header class="ust">
+	<div class="kap">
+		<p class="marka">PROMISE BY YILDIRIM</p>
+		<h1>Ana Sayfa Üst Bar Seçenekleri</h1>
+		<p class="giris">Logonun açık tonlu fotoğrafların üzerinde de net okunması için dört seçenek hazırladık. Her seçenek sitenin kendisinde, telefon ve bilgisayar ekranında görüntülendi. Görsele dokunarak büyütebilirsiniz.</p>
+	</div>
+</header>
+
+<main class="kap">
+
+	<section class="secenek referans">
+		<p class="etiket">ŞU ANKİ HALİ</p>
+		<div class="gorseller">
+			<figure>
+				<a href="gorsel/simdiki-telefon.webp"><img src="gorsel/simdiki-telefon.webp" width="780" height="600" alt="Şu anki hali, telefon ekranı"></a>
+				<figcaption>TELEFON</figcaption>
+			</figure>
+			<figure>
+				<a href="gorsel/simdiki-masaustu.webp"><img src="gorsel/simdiki-masaustu.webp" width="1920" height="260" alt="Şu anki hali, bilgisayar ekranı" loading="lazy"></a>
+				<figcaption>BİLGİSAYAR</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="secenek">
+		<p class="etiket">SEÇENEK</p>
+		<div class="secenek-bas"><span class="harf">A</span><h2>Beyaz Tül Bant</h2></div>
+		<p class="aciklama">Logonun üzerinde beyaz, hafif saydam bir bant; logo ve menü koyu renge döner. Sitenin beyaz zeminiyle aynı dili konuşur, sayfa aşağı kaydırıldığında üst barın aldığı görünümle de bütünlük kurar.</p>
+		<div class="gorseller">
+			<figure>
+				<a href="gorsel/a-telefon.webp"><img src="gorsel/a-telefon.webp" width="780" height="600" alt="Seçenek A, telefon ekranı" loading="lazy"></a>
+				<figcaption>TELEFON</figcaption>
+			</figure>
+			<figure>
+				<a href="gorsel/a-masaustu.webp"><img src="gorsel/a-masaustu.webp" width="1920" height="260" alt="Seçenek A, bilgisayar ekranı" loading="lazy"></a>
+				<figcaption>BİLGİSAYAR</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="secenek">
+		<p class="etiket">SEÇENEK</p>
+		<div class="secenek-bas"><span class="harf">B</span><h2>Yumuşak Gölge</h2></div>
+		<p class="aciklama">Belirgin bir bant yok; fotoğrafın üst kısmı yukarıdan aşağıya yavaşça koyulaşır. Logo beyaz kalır, fotoğraf bölünmeden bir bütün olarak görünür.</p>
+		<div class="gorseller">
+			<figure>
+				<a href="gorsel/b-telefon.webp"><img src="gorsel/b-telefon.webp" width="780" height="600" alt="Seçenek B, telefon ekranı" loading="lazy"></a>
+				<figcaption>TELEFON</figcaption>
+			</figure>
+			<figure>
+				<a href="gorsel/b-masaustu.webp"><img src="gorsel/b-masaustu.webp" width="1920" height="260" alt="Seçenek B, bilgisayar ekranı" loading="lazy"></a>
+				<figcaption>BİLGİSAYAR</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="secenek">
+		<p class="etiket">SEÇENEK</p>
+		<div class="secenek-bas"><span class="harf">C</span><h2>Koyu Buzlu Bant</h2></div>
+		<p class="aciklama">Logonun arkasında koyu, buzlu cam etkili bir bant. Logo beyaz kalır ve en yüksek okunurluğu bu seçenek verir.</p>
+		<div class="gorseller">
+			<figure>
+				<a href="gorsel/c-telefon.webp"><img src="gorsel/c-telefon.webp" width="780" height="600" alt="Seçenek C, telefon ekranı" loading="lazy"></a>
+				<figcaption>TELEFON</figcaption>
+			</figure>
+			<figure>
+				<a href="gorsel/c-masaustu.webp"><img src="gorsel/c-masaustu.webp" width="1920" height="260" alt="Seçenek C, bilgisayar ekranı" loading="lazy"></a>
+				<figcaption>BİLGİSAYAR</figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="secenek">
+		<p class="etiket">SEÇENEK</p>
+		<div class="secenek-bas"><span class="harf">D</span><h2>İnce Çizgili Tül</h2></div>
+		<p class="aciklama">Daha açık tonda bir tül bant, altında logodaki kuğu çizgisini hatırlatan ince bir hat. C seçeneğinin daha hafif hali.</p>
+		<div class="gorseller">
+			<figure>
+				<a href="gorsel/d-telefon.webp"><img src="gorsel/d-telefon.webp" width="780" height="600" alt="Seçenek D, telefon ekranı" loading="lazy"></a>
+				<figcaption>TELEFON</figcaption>
+			</figure>
+			<figure>
+				<a href="gorsel/d-masaustu.webp"><img src="gorsel/d-masaustu.webp" width="1920" height="260" alt="Seçenek D, bilgisayar ekranı" loading="lazy"></a>
+				<figcaption>BİLGİSAYAR</figcaption>
+			</figure>
+		</div>
+	</section>
+
+</main>
+
+<footer class="alt">
+	<div class="kap">
+		<p>Beğendiğiniz seçeneğin harfini yazmanız yeterli.</p>
+		<p class="kucuk">Seçtiğiniz bant yalnız ana sayfanın en üstünde görünür; sayfa kaydırıldığında üst bar bugünkü gibi beyaza geçer.</p>
+	</div>
+</footer>
+
+</body>
+</html>
